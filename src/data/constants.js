@@ -4,6 +4,7 @@ import hiring from '../images/hiringskills.JPG';
 import cars from '../images/cars.JPG';
 import facetime from '../images/facetime.JPG';
 import bookshow from '../images/bookshow.JPG';
+import ebd from '../images/EbaadImg.JPG';
 
 export const Bio = {
   name: "Ebaad Azam",
@@ -209,7 +210,6 @@ export const experiences = [
       "ActiveMQ",
       "JUnit",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
   {
     id: 1,
@@ -326,18 +326,12 @@ export const projects = [
     member: [
       {
         name: "Ebaad Azam",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+        img: ebd,
         linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
         github: "https://github.com/rishavchanda/",
       },
       {
-        name: "Mohd Atif",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-      {
-        name: "Nomaan Mumtaz",
+        name: "Upasana Chaudhary",
         img: "https://avatars.githubusercontent.com/u/100614635?v=4",
         linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
         github: "https://github.com/upasana0710",
