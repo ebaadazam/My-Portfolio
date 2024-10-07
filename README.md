@@ -2,14 +2,6 @@
 Welcome to my portfolio! This project showcases my skills, projects, and experiences as a web developer.
 
 ### Weblink: [Live Website](https://rishavchanda.netlify.app)
-## Some Images:
-<img width="450px;" src="https://github.com/rishavchanda/rishav-chanda-portfolio/assets/64485885/4774dc30-1c1c-4c6c-b23b-019f3481713e"/>
-<img width="450px;" src="https://github.com/rishavchanda/rishav-chanda-portfolio/assets/64485885/0a33349f-262d-4720-afed-7afc0dfd85a5"/>
-<img width="450px;" src="https://github.com/rishavchanda/rishav-chanda-portfolio/assets/64485885/92f2622f-0a7f-444a-8f60-6edeae7508dd"/>
-<img width="450px;" src="https://github.com/rishavchanda/rishav-chanda-portfolio/assets/64485885/0e984e85-cbd9-487b-bf91-166009b39319"/>
-<img width="450px;" src="https://github.com/rishavchanda/rishav-chanda-portfolio/assets/64485885/6ad7b63b-4c51-4c98-bd21-847e5d48d559"/>
-<img width="450px;" src="https://github.com/rishavchanda/rishav-chanda-portfolio/assets/64485885/10647898-7154-434c-84e6-edee6679ca92"/>
-
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -31,6 +23,15 @@ My Portfolio is a React.js application that serves as an online portfolio to sho
 - Contact: A form to send me messages or inquiries.
 
 ## Technologies Used
+- Java: A versatile, object-oriented programming language widely used for building cross-platform applications, from mobile to enterprise-level systems.
+- Spring Boot: A framework for building Java-based enterprise applications that simplifies the development of RESTful APIs and microservices by providing auto-configuration and embedded servers.
+- Microservices: An architectural style that structures an application as a collection of small, independent services, each responsible for a specific functionality, allowing for easier scaling and maintenance.
+- MySQL: An open-source relational database management system (RDBMS) that uses Structured Query Language (SQL) to store and manage data efficiently.
+- MongoDB: A NoSQL database that stores data in flexible, JSON-like documents, allowing for easy scaling and handling of large amounts of unstructured data.
+- AWS (Amazon Web Services): A cloud computing platform offering a wide range of services such as storage, databases, and computing power, enabling developers to build and scale applications quickly and cost-effectively.
+- REST APIs: Representational State Transfer (REST) is a software architecture style that uses standard HTTP methods to create, read, update, and delete resources.
+- Hibernate: A Java-based Object-Relational Mapping (ORM) framework that simplifies database interactions by mapping Java objects to database tables, reducing boilerplate SQL code.
+- JDBC (Java Database Connectivity): A Java API that enables applications to interact with relational databases by executing SQL queries and retrieving results.
 - React.js: A JavaScript library for building user interfaces.
 - HTML5 & CSS3: Markup and styling languages for building web pages.
 - JavaScript: A programming language for adding interactivity to web applications.
@@ -41,11 +42,10 @@ My Portfolio is a React.js application that serves as an online portfolio to sho
 ## Installation
 To run this portfolio locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/rishavchanda/rishav-chanda-portfolio.git`
-2. Navigate to the project directory: `cd rishav-chanda-portfolio`
-3. Install the dependencies: `npm install`
-4. Start the development server: `npm start`
-5. Open your browser and visit: `http://localhost:3000`
+1. Clone the repository: `git clone https://github.com/ebaadazam/My-Portfolio.git`
+2. Install the dependencies: `npm install`
+3. Start the development server: `npm start`
+4. Open your browser and visit: `http://localhost:3000`
 
 ## Usage
 After installing and running the project locally, you can navigate through the different sections of the portfolio using the navigation menu. Explore the About Me section to learn more about my background and skills. Visit the Projects section to see detailed information about my projects, including descriptions and screenshots. Use the Contact section to send me a message or inquiry.
