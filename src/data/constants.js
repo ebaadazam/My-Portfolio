@@ -1,10 +1,10 @@
-import pay from '../images/payment.jpg';
+import payment from '../images/payment.jpg';
 import ecomm from '../images/ecomm.jpg';
-import hiring from '../images/hiringskills.jpg';
+import hiringskills from '../images/hiringskills.jpg';
 import cars from '../images/cars.jpg';
 import facetime from '../images/facetime.jpg';
 import bookshow from '../images/bookshow.jpg';
-import ebd from '../images/ebaadimg.jpg';
+import ebaadimg from '../images/ebaadimg.jpg';
 
 export const Bio = { 
   name: "Ebaad Azam",
@@ -266,7 +266,7 @@ export const projects = [
     title: "Payment Integration",
     description:
       "Developed a Payment System using the Checkout feature of Stripe Payment Provider involving the money settlement from the customer's bank account to stripe. In this project, one-time payment method is used rather than the subscription method. Also developed the Microservices architecture including all the major principles required to make the project reliable and loosely-coupled. I'm using Rest APIs in order to establish the communication between the certain Microservices",
-    image: pay,
+    image: payment,
     tags: [
       "Java",
       "Spring Boot",
@@ -301,7 +301,7 @@ export const projects = [
     title: "Hiring$kills",
     description:
       "Designed an Online Job Portal where job seekers can browse various job listings, and employers can post job openings, showcasing my ability to build versatile web applications. The tech stack used in this project is Java, Spring boot, React and Mongodb Atlas cloud for deployment.",
-    image: hiring,
+    image: hiringskills,
     tags: [
       "Java",
       "Spring Boot",
@@ -326,7 +326,7 @@ export const projects = [
     member: [
       {
         name: "Ebaad Azam",
-        img: ebd,
+        img: ebaadimg,
         linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
         github: "https://github.com/rishavchanda/",
       },
