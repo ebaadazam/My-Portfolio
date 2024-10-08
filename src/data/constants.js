@@ -4,9 +4,9 @@ import hiring from '../images/hiringskills.jpg';
 import cars from '../images/cars.jpg';
 import facetime from '../images/facetime.jpg';
 import bookshow from '../images/bookshow.jpg';
-import ebd from '../images/EbaadImg.jpg';
+import ebd from '../images/ebaadimg.jpg';
 
-export const Bio = {
+export const Bio = { 
   name: "Ebaad Azam",
   roles: [
     "Full Stack Developer",

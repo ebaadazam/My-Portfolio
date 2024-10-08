@@ -95,13 +95,13 @@ export const HeroRightContainer = styled.div`
 
 export const Img = styled.img`
   position: relative;
-  width: 88%;
-  height: 70%;
+  width: 68%;  /* Set both width and height to the same percentage or value */
+  height: 65%;
   margin-bottom: 35px;
   margin-top: -125px;
   max-width: 400px;
   max-height: 400px;
-  border-radius: 50%;
+  border-radius: 100%; /* This ensures the image becomes circular */
   border: 2px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 768px) {
@@ -114,6 +114,7 @@ export const Img = styled.img`
     max-height: 280px;
   }
 `;
+
 
 export const Title = styled.div`
   font-weight: 700;
