@@ -1,10 +1,10 @@
-import pay from '../images/payment.JPG';
-import ecomm from '../images/ecomm.JPG';
-import hiring from '../images/hiringskills.JPG';
-import cars from '../images/cars.JPG';
-import facetime from '../images/facetime.JPG';
-import bookshow from '../images/bookshow.JPG';
-import ebd from '../images/EbaadImg.JPG';
+import pay from '../images/payment.jpg';
+import ecomm from '../images/ecomm.jpg';
+import hiring from '../images/hiringskills.jpg';
+import cars from '../images/cars.jpg';
+import facetime from '../images/facetime.jpg';
+import bookshow from '../images/bookshow.jpg';
+import ebd from '../images/EbaadImg.jpg';
 
 export const Bio = {
   name: "Ebaad Azam",
