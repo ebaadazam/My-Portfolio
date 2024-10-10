@@ -75,8 +75,8 @@ export const HeroLeftContainer = styled.div`
 `;
 
 export const HeroRightContainer = styled.div`
-  width: 75%;
-  height: 60%;
+  width: 70%;
+  height: 57%;
   display: flex;
   order: 2;
   justify-content: end;
@@ -96,7 +96,7 @@ export const HeroRightContainer = styled.div`
 export const Img = styled.img`
   position: relative;
   width: 68%;  /* Set both width and height to the same percentage or value */
-  height: 65%;
+  height: 60%;
   margin-bottom: 35px;
   margin-top: -125px;
   max-width: 400px;
