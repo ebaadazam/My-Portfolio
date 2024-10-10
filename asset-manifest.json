@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.bf538fe7.css",
+    "main.js": "/My-Portfolio/static/js/main.3ffd1906.js",
+    "static/media/ebaadimg.jpg": "/My-Portfolio/static/media/ebaadimg.41c37e59df887b4acfc4.jpg",
+    "static/media/ecomm.jpg": "/My-Portfolio/static/media/ecomm.69cf691cc7d9a877ebda.jpg",
+    "static/media/hiringskills.jpg": "/My-Portfolio/static/media/hiringskills.e7dfc208517c3bf3d83b.jpg",
+    "static/media/cars.jpg": "/My-Portfolio/static/media/cars.3c09f1eacc5ce97bcb4d.jpg",
+    "static/media/bookshow.jpg": "/My-Portfolio/static/media/bookshow.2faad4de9532dea7f596.jpg",
+    "static/media/facetime.jpg": "/My-Portfolio/static/media/facetime.36b6b1c498776c051ca8.jpg",
+    "static/media/payment.jpg": "/My-Portfolio/static/media/payment.fb3a9de80d06ed73f213.jpg",
+    "index.html": "/My-Portfolio/index.html",
+    "main.bf538fe7.css.map": "/My-Portfolio/static/css/main.bf538fe7.css.map",
+    "main.3ffd1906.js.map": "/My-Portfolio/static/js/main.3ffd1906.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.3ffd1906.js"
+  ]
+}
