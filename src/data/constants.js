@@ -1,10 +1,11 @@
-import payment from '../images/payment.jpg';
-import ecomm from '../images/ecomm.jpg';
-import hiringskills from '../images/hiringskills.jpg';
-import cars from '../images/cars.jpg';
-import facetime from '../images/facetime.jpg';
-import bookshow from '../images/bookshow.jpg';
-import ebaadimg from '../images/ebaadimg.jpg';
+import payment from '../images/payment.JPG';
+import ecomm from '../images/ecomm.JPG';
+import hiringskills from '../images/hiringskills.JPG';
+import bankingapp from '../images/bankingapp.png';
+import facetime from '../images/facetime.JPG';
+import bookshow from '../images/bookshow.JPG';
+import ebaadimg from '../images/EbaadImg.jpg';
+import pb_logo from '../images/fevicon.webp';
 
 export const Bio = { 
   name: "Ebaad Azam",
@@ -14,10 +15,11 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "A Software Developer skilled in Java and Python programming language with a profound understanding of Object-Oriented Programming (OOP) concepts and Data Structures & Algorithms (DSA). I have gained proficiency in Core Java, Collection APIs, JUnit, JDBC, Servlets JSP, Hibernate, Restful APIs and Web Services, Spring Boot and MicroServices. Also worked practically on MongoDB and MySQL Databases for efficient storage management. Familiar with C#, Cpp, React and Kotlin as well.",
+    "A Software Developer with 1 year of experience skilled in Java and Python programming languages with a profound understanding of Object-Oriented Programming (OOP) concepts and Data Structures & Algorithms (DSA). I have acquired proficiency in Core Java, Collection APIs, JUnit, JDBC, Servlets JSP, Hibernate, Restful APIs and Web Services, Spring Boot and MicroServices. Also worked practically on MongoDB and MySQL Databases for efficient storage management. Familiar with C#, Cpp, React and Kotlin as well.",
   github: "https://github.com/ebaadazam",
+  reachout: "Reach out to me on: ",
   resume:
-    "https://drive.google.com/file/d/1s01jFFMzIedW6C0Ti6xI8bdKwQNXM_wL/view",
+    "https://drive.google.com/file/d/1NHwQ54ogc_HPlcz3rp8SXw8smviAmbRs/view",
   linkedin: "https://www.linkedin.com/in/ebaadazam90/",
   twitter: "https://twitter.com/ebaad90",
   insta: "https://www.instagram.com/ebaad09/",
@@ -172,20 +174,23 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://cdn.prod.website-files.com/666be39db8137e634ad49ad9/667960e50ea1b7fa24efc7e8_iphone-logo.png",
-    role: "Full-Stack Developer",
-    company: "Memorly.AI Bengaluru",
-    date: "Aug 2023 - July 2023",
-    desc: "Developed and integrated data-driven conversational AI Chatbots into various third party channels such as instagram, whatsapp allowing businesses to seamlessly provide customer support and engagement.",
+    img: pb_logo,
+    role: "Software Developer",
+    company: "PeerBuddy Delhi",
+    date: "November 2024 - May 2025",
+    desc: "Designing the web applications using Java Spring Boot as the backend and interactive UI design meeting the expectations of the clients, boosting code efficiency by 25%. Utilized Git for version control, ensuring seamless code management and collaboration within the development team. Collaborated with cross-functional teams, actively participating in scrum meetings, organizing tasks and delivering presentations to align project goals and timelines..",
     skills: [
-      "Python",
-      "Django",
-      "Django Rest Framework",
-      "Reactjs",
-      "JavaScript",
-      "Odoo",
+      "Java Spring Boot",
+      "Spring MVC",
+      "Hibernate",
+      "Spring Security",
+      "JWT Authentication & Authorization",
+      "RESTful APIs",
+      "Microservices",
       "Docker",
-      "Linux",
+      "AWS",
+      "Git",
+      "Github",
     ],
     doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
@@ -194,7 +199,7 @@ export const experiences = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRFpxufHoxdsln343dubAapulHdUssZfT1wg&s",
     role: "Java Software Engineer Intern",
     company: "HulkHire Tech Hyderabad",
-    date: "June 2023 - Present",
+    date: "July 2024 - October 2024",
     desc: "Working on the backend of payment integration for e-comerce client using Spring Boot for the backend, expose RESTful APIs and JDBC for effective database management.",
     skills: [
       "Java",
@@ -289,12 +294,29 @@ export const projects = [
     id: 0,
     title: "E-Commerce Web App",
     description:
-      " I have developed a full stack E-Commerce Web Application using Spring Boot for the backend to expose RESTful APIs and uses JDBC for efficient database interactions and React JS for the frontend. On the frontend, the API Integration has been done using Redux and Axios for managing the global application state and for handling asynchronous API requests. Key functionalities include secure user authentication and authorization using JWT Token and comprehensive product management with CRUD operations, and robust cart and order handling",
+      " I have developed a full stack E-Commerce backend Web Application using Spring Boot for the backend to expose RESTful APIs and uses JDBC for efficient database interactions and React JS for the frontend. On the frontend, the API Integration has been done using Redux and Axios for managing the global application state and for handling asynchronous API requests. Key functionalities include secure user authentication and authorization using JWT Token and comprehensive product management with CRUD operations, and robust cart and order handling",
     image: ecomm,
     tags: ["Advanced Java", "Spring Boot", "Spring Security", "Microservices", "JWT", "RESTful APIs", "Reactjs", "Redux", "Axios", "JavaScript", "MySQL"],
     category: "web app",
     github: "https://github.com/ebaadazam/E-Commerce-Store",
     webapp: "https://ea-official-ecommerceapp.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Digital Banking Application",
+    description:
+      "Developed a digital banking application where users can create and manage profiles, securely add personal and account details, deposit and withdraw money, and edit or delete their profiles for a seamless banking experience.",
+    image: bankingapp,
+    tags: [
+      "Java",
+      "Spring Boot",
+      "Spring MVC",
+      "MySQL",
+      "React Js",
+    ],
+    category: "web app",
+    github: "https://github.com/ebaadazam/Banking-Application-Backend",
+    webapp: "null",
   },
   {
     id: 1,
@@ -349,18 +371,6 @@ export const projects = [
     github: "https://github.com/ebaadazam/Book-My-Show",
     webapp: "https://github.com/ebaadazam/Book-My-Show",
   },
-  {
-    id: 2,
-    title: "Virtual Car Workshop",
-    description:
-      "Developed an online car hub offering comprehensive car services including modification, repair, detailing, and washing, ensuring all your vehicle needs are met in one place.",
-    image: cars,
-    tags: ["Python", "Django", "HTML5", "MySQL"],
-    category: "machine learning",
-    github: "https://github.com/ebaadazam/Virtual-Car-Workshop",
-    webapp: "https://virtuyal-car-workshop.vercel.app/",
-  },
- 
 ];
 
 export const TimeLineData = [

@@ -1,0 +1,29 @@
+.Myimg {
+    width: 250px;
+    height: 230px;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    transform: translate(-20px, -180px);
+  }
+  
+  /* On hover, keep the same shift as default for smooth effect */
+  .Myimg:hover {
+    transform: scale(1.05) translate(-20px, -180px);
+  }
+  
+  /* ✅ Responsive adjustment for mobile screens */
+  @media (max-width: 768px) {
+    .Myimg {
+      width: 150px;
+      height: 150px;
+      transform: translate(0, -40px); /* Less upward and centered horizontally */
+    }
+  
+    .Myimg:hover {
+      transform: scale(1.05) translate(0, -40px);
+    }
+  }
+  
